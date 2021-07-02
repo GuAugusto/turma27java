@@ -1,9 +1,10 @@
 package lista1;
-
+import java.util.Scanner;
 public class lista1Tarefa7 {
 
+
 	public static void main(String[] args) {
-		canner leia = new Scanner(System.in);
+		Scanner leia = new Scanner(System.in);
 
         double a, b, c, d, e, f, x, y;
 
