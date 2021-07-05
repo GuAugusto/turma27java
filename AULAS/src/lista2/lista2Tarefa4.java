@@ -11,7 +11,7 @@ import java.util.Scanner;
 
 
 import java.util.Scanner;
-public class lista3Tarefa4 {
+public class lista2Tarefa4 {
 
 	public static void main(String[] args) {
 		double numero;
@@ -29,12 +29,12 @@ public class lista3Tarefa4 {
 					
 			 }
 		
-			else if (numero % 2 ==0&& Math.sqrt(numero)){
+			else if (numero % 2 ==0){
 				System.out.println("\nO numero: " + numero + ", é par!");
 		
 			} 
 		
-			 else if (numero % 2 ==1 &&  Math.pow(numero, 2) )
+			 else if (numero % 2  ==0 )
 			 {
 				System.out.println("\nO numero: " + numero + ", é ímpar!");
 				

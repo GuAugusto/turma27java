@@ -11,7 +11,7 @@ package lista2;
 
 import java.util.Scanner;
 
-public class lista3Tarefa3 {
+public class lista2Tarefa3 {
 
 	public static void main(String[] args) {
 		Scanner ler = new Scanner (System.in);

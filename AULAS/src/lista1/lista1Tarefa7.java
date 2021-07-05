@@ -21,10 +21,9 @@ public class lista1Tarefa7 {
         System.out.println("Digita um número para f:");
         f = leia.nextDouble();
 
-        x= ((ce)-(bf)) / ((ae)-(bd));
-        y= ((af)-(cd)) / ((ae)-(bd));
+     
 
-        System.out.printf("Considerando que x=ce-bf/ae-bd e y=af-cd/ae-bd, o resultado de x é: %.2f e o resultado de y é: %f.2",x,y);
+        System.out.printf("Considerando que x=ce-bf/ae-bd e y=af-cd/ae-bd, o resultado de x é: %.2f e o resultado de y é: %f.2");
 
 
 	}
