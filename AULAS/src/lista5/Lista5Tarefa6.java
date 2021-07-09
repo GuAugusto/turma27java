@@ -12,15 +12,15 @@ public class Lista5Tarefa6 {
 
 	public static void main(String[] args) {
 		
-		ContaBancaria conta1 = new ContaBancaria();
+		//ContaBancaria conta1 = new ContaBancaria();
 		
-		conta1.Tipo = "Conta Corrente";
-		conta1.NumeroConta = 25987;
-		conta1.Saldo = 10000.0;
+		//conta1.Tipo = "Conta Corrente";
+		//conta1.NumeroConta = 25987;
+		//conta1.Saldo = 10000.0;
 		
-		System.out.println("Conta do tipo: "+conta1.Tipo);
-		System.out.println("Numero da conta: "+conta1.NumeroConta);
-		System.out.println("Seu saldo é: R$"+conta1.Saldo);
+		//System.out.println("Conta do tipo: "+conta1.Tipo);
+		//System.out.println("Numero da conta: "+conta1.NumeroConta);
+		//System.out.println("Seu saldo é: R$"+conta1.Saldo);
 				
 		
 	}
