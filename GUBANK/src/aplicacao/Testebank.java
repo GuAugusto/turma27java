@@ -1,4 +1,4 @@
-package aplicacao;
+/*package aplicacao;
 
 import java.util.Scanner;
 
@@ -49,4 +49,4 @@ public class TesteBank {
 		System.out.println("Saldo atual : R$"+cne1.getSaldo());
 	}
 
-}
+}*/
