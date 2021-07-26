@@ -2,13 +2,6 @@ package PROJETOBANCO;
 
 import java.util.Scanner;
 
-import entidades.Banner;
-import entidades.ContaCorrente;
-import entidades.ContaEmpresa;
-import entidades.ContaEspecial;
-import entidades.ContaEstudante;
-import entidades.ContaPoupanca;
-
 public class ProjetoG3Bank {
 
 //PROJETO BANCO - PRODUZIDO NO PRIMEIRO MÓDULO
