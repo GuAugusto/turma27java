@@ -24,31 +24,33 @@ public class PostagemController {
 
 	@Autowired
 	private PostagemRepository repository;
-	
+
 	@GetMapping
-	public ResponseEntity<List<postagem>> GetAll (){
+	public ResponseEntity<List<postagem>> GetAll() {
 		return ResponseEntity.ok(repository.findAll());
-	
-}
+
+	}
+
 	@GetMapping("/{id}")
-	public ResponseEntity<postagem> GetByid( @PathVariable long id) {
-		return repository.findById(id)
-				.map(resp -> ResponseEntity.ok(resp)).orElse(ResponseEntity.notFound().build());
+	public ResponseEntity<postagem> GetByid(@PathVariable long id) {
+		return repository.findById(id).map(resp -> ResponseEntity.ok(resp)).orElse(ResponseEntity.notFound().build());
 	}
 
 	@GetMapping("/titulo/{titulo}")
 	public ResponseEntity<List<postagem>> GetByTitulo(@PathVariable String titulo) {
 		return ResponseEntity.ok(repository.findAllByTituloContainingIgnoreCase(titulo));
 	}
-	
+
 	@PostMapping
-	public ResponseEntity<postagem> post (@RequestBody postagem postagem){
+	public ResponseEntity<postagem> post(@RequestBody postagem postagem) {
 		return ResponseEntity.status(HttpStatus.CREATED).body(repository.save(postagem));
 	}
+
 	@PutMapping
-	public ResponseEntity<postagem> put (@RequestBody postagem postagem){
+	public ResponseEntity<postagem> put(@RequestBody postagem postagem) {
 		return ResponseEntity.status(HttpStatus.OK).body(repository.save(postagem));
 	}
+
 	@DeleteMapping("/{id}")
 	public void delete(@PathVariable long id) {
 		repository.deleteById(id);
