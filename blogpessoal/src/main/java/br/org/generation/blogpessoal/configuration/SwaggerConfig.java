@@ -43,14 +43,14 @@ public class SwaggerConfig {
 			.description("Projeto API Spring - Blog Pessoal")
 			.version("1.0.0")
 			.license("Apache License Version 2.0")
-			.licenseUrl("https://github.com/GuAugusto")
+			.licenseUrl("https://github.com/rafaelq80")
 			.contact(contact())
 			.build();
 	}
 
 	private static Contact contact() {
 
-		return new Contact("Gustavo Augusto", 
+		return new Contact("Gustavo Augusto ", 
 			"https://github.com/GuAugusto", 
 			"gustavoaugusto77@hotmail.com");
 
